@@ -42,6 +42,7 @@ const playRound = (playerSelection, computerSelection) => {
     }
     return `You lose! ${computerSelection} beats ${playerSelection}`
 }
+
 console.log(playRound(playerSelection, computerSelection));
 
 
